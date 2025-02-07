@@ -4,41 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .radio-group {
+            display: flex;
+            justify-content: space-between;
+        }
+        .radio-group input {
+            margin-right: 10px;
+        }
+        .redirect, .login {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
    <h1>this is a form</h1>
+   <a href="form.html" class="redirect">redirect</a>
     <form>
-        <tr>
-           <label for="first">First Name</label>
-           <input type="text" placeholder="Enter your first name:">
-        </tr>
-        <tr>
+        <div>
             <label for="first">First Name</label>
-            <input type="text" placeholder="Enter your last name:">
-         </tr>
-         <tr>
-            <label for="first">First Name</label>
-            <input type="text" placeholder="Enter your :">
-         </tr>
-         <tr>
-            <label for="first">First Name</label>
-            <input type="text" placeholder="Enter your name:">
-         </tr>
-         <tr>
-            <label for="first">First Name</label>
-            <input type="text" placeholder="Enter your name:">
-         </tr> <tr>
-            <label for="first">First Name</label>
-            <input type="text" placeholder="Enter your name:">
-         </tr>
-         <tr>
-            <label for="first">First Name</label>
-            <input type="text" placeholder="Enter your name:">
-         </tr>
-         <tr>
-            <label for="first">First Name</label>
-            <input type="text" placeholder="Enter your name:">
-         </tr>
+            <input type="text" id="first" placeholder="Enter your first name:" required>
+        </div>
+
+        <div>
+            <label for="last">Last Name</label>
+            <input type="text" id="last" placeholder="Enter your last name:" required>
+        </div>
+
+        <div>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" placeholder="Enter your email id:" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password:" required>
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" required>
+        </div>
+
+        <div>
+            <label for="phone">Mobile</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number:" required>
+        </div>
+
+        <div class="radio-group">
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="others"> Others
+            </label>
+        </div>
+
+        <p class="login">Already have an account? <a href="login.html">Login</a></p>
     </form>
 </body>
 </html>
