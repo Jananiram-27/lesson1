@@ -1,0 +1,16 @@
+.external{
+    background-color: #3cdec8;
+    height:327*0px;
+    width:300px;
+
+}
+#idselector{
+    font-family:'Courier New', Courier, monospace;
+}
+ol{
+    margin-top:40px;
+    list-style-type:circle;
+}
+*{
+    background-color:rgb(155, 139, 170);
+}
