@@ -1,0 +1,45 @@
+.relative-pos{
+    background-color:rgb(97, 205, 102);
+    position:relative;
+    left:50px;
+    top:50px;
+    z-index:3;
+}
+
+.relative-pos1{
+    background-color:rgb(149, 184, 25);
+    position:relative;
+   
+    z-index:2;
+
+}
+.relative-pos2{
+    background-color:rgb(24, 133, 133);
+    position:relative;
+left:50px;
+top:50px;
+    z-index:1;
+}
+
+.div-pos{
+    position:relative;
+    margin:100px;
+    border:2px solid goldenrod;
+    height:500px;
+    width:500px;
+
+}
+.abs-pos{
+    position:absolute;
+    left:40px;
+    top:50px;
+}
+.fixed-pos{
+    position:fixed;
+    top:100px;
+    left:100px;
+}
+.sticky-pos{
+    position:sticky;
+    top:300px;
+}
