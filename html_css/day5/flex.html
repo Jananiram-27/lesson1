@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex CSS</title>
-<link rel="stylesheet" href="flex.css">
+    <title>Cooking Fever</title>
+    <link rel="stylesheet" href="flex.css">
 </head>
 <body>
     <header>
-        <h1 class="three">Cooking Fever</h1>
-        <img src="../pan.jpg" alt="pan.jpg" class="three">
+        <img src="../day5/pan.jpg" alt="Cooking Image" height="100px" width="100px" class="header-img">
+        <h1 class="title">Cooking Fever</h1>
         <nav>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">contact</a></li>
-          
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="link">Skills</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>Technical</li>
+                            <li>Soft</li>
+                            <li>Designing</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
-      
-        
     </header>
-
 </body>
 </html>
