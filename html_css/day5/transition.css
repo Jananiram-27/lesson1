@@ -1,0 +1,99 @@
+.transition{
+    color:dimgray;
+    background-color:rgb(129, 208, 138);
+    transition:transform 20s;
+    opacity: 1s;
+}
+.transition:hover{
+    background-color:dimgray;
+    color:blueviolet;
+    padding:30px;
+    height:100px;
+    width:300px;
+    transform:rotate(360deg);
+    opacity:0.9;
+}
+h1{
+    color:antiquewhite;
+}
+
+@keyframes animation-Div{
+0%{
+    background-color:#e29a52;
+    top:0px;
+    left:0px;
+
+}
+25%{
+    background-color:rgb(147, 147, 187);
+    top:0px;
+    left:800px;
+}
+50%{
+    background-color:rgb(52, 40, 63);
+    top:400px;
+    left:200px;
+}
+75%{
+    background-color:rgb(116, 204, 33);
+    top:400px;
+    left:300px;
+
+}
+100%{
+    background-color:#e29a52;
+    top:100px;
+    left:100px;
+}
+
+
+}
+.animation{
+    position:relative;
+    animation-name:animation-Div;
+    background-color:burlywood;
+    height:300px;
+    width:350px;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    
+}
+.three{
+    position:relative;
+    animation-name:animation-Div2;
+    background-color:burlywood;
+    height:100px;
+    width:150px;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    border-radius:50%;
+}
+@keyframes animation-Div2{
+    0%{
+        background-color:#e29a52;
+        top:0px;
+        left:2px;
+    
+    }
+    25%{
+        background-color:rgb(147, 147, 187);
+        top:0px;
+        left:800px;
+    }
+    50%{
+        background-color:rgb(52, 40, 63);
+        top:400px;
+        left:200px;
+    }
+    75%{
+        background-color:rgb(116, 204, 33);
+        top:400px;
+        left:300px;
+    
+    }
+    100%{
+        background-color:#e29a52;
+        top:100px;
+        left:100px;
+    }
+}
