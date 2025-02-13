@@ -1,0 +1,56 @@
+li{
+    padding:30px;
+
+}
+nav:hover{
+    background-color:rgb(162, 238, 155);
+}
+li a{
+    text-decoration:none;
+    color:rgb(10, 12, 133);
+
+}
+body{
+    margin:0;
+}
+
+nav{
+    display:flex;
+    list-style-type:none;
+    padding:30px;
+    justify-content:flex-end;
+    background-color:rgb(213, 173, 112);
+    margin:0;
+    height:20px;
+position:relative;
+bottom: 205px;
+z-index:1;
+}
+
+
+
+
+a:hover{
+    color:brown;
+    font-size:larger;
+    font-weight:bold;
+
+}
+
+h1{
+    display:inline-block;
+    position:relative;
+    bottom:60px;
+    z-index:4;
+    font-size:10px;
+}
+
+
+.three{
+    position:relative;
+    left:30px;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    z-index:5;
+}
