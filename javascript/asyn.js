@@ -1,3 +1,4 @@
+console.log("asynchronous function");
 async function asAw(){
    var a=15;
     setTimeout(function(){

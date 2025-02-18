@@ -14,7 +14,8 @@ function makesandwich()
       },2000);
     });
 }
-
+//asynchronous example
+console.log("asynchronous example");
 async function getsandwich(){
    console.log("i want sandwich");
    makesandwich()
