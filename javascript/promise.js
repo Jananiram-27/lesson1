@@ -5,10 +5,10 @@ function makesandwich()
            let butter=true;
            if(butter)
            {
-            resolve("sandwich senji tharan");
+            resolve("sandwich is available");
            }
            else{
-            reject("mudiyathu po");
+            reject("not available");
            }
            
       },2000);
@@ -16,7 +16,7 @@ function makesandwich()
 }
 
 async function getsandwich(){
-   console.log("sandwich venum");
+   console.log("i want sandwich");
    makesandwich()
     .then((res)=>{
           console.log(res);
@@ -25,5 +25,5 @@ async function getsandwich(){
         console.log(res);
     })
 };
-console.log("kidaikura varaikum na vera velai pakuran")
+console.log("i can play in mean time")
 getsandwich();
