@@ -1,0 +1,10 @@
+nav{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    background-color:rgb(117, 108, 157);
+    height:40px;
+}
+li{
+    margin:10px;
+}
