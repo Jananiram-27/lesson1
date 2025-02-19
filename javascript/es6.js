@@ -1,31 +1,7 @@
-//Normal function
-function print()
-{
-    console.log("Vanakkam chennai");
+/*function  testArrowFunction(){
+    console.log("this is test arrow function")
 }
-print();
-var arrow=()=>{
-    console.log("this is arrow function");
-};
-arrow();
-
-
-//Scope of the variable
-
-function describe()
-{
-   if(true)
-   {
-    let b=50;
-    var a=20;
-    console.log(b);
-    console.log(a);
-   }
-  
-   console.log(a);
-   
-}
-describe();
+testArrowFunction()
 //ternary operator
 a=11
 console.log(a%2 ? "odd":"even")
@@ -43,17 +19,20 @@ function studentDB(...studDB){
     console.log(studDB)
 }
 studentDB(studDB)
+*/
 
 //7.destructing operator
 var arr=[10,20,30]
 var[x,y,z]=arr
 console.log(x)
+
 //8.hoisting
 console.log(a);// why it is showing undefined rather than reference error
 var a=10;
 funhost()
 function funhost(){
     console.log("fun")
+
 }
 functionhoisting=()=>{
     console.log("hello")
@@ -67,3 +46,12 @@ class Classeg{
 }
 obj=new Classeg()
 console.log(obj.classfun());
+const [first, second, ...rest] = [1, 2, 3, 4, 5];
+console.log(first);  
+console.log(second);
+console.log(rest);  
+// Destructuring an object
+const person = { name: "Alice", age: 30, city: "Paris" };
+const { name, ...otherDetails } = person;
+console.log(name);        
+console.log(otherDetails);  
