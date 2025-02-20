@@ -10,7 +10,7 @@ const Navbar = () => {
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/gallery'>Gallery</Link></li>
 
-                    {/* Hooks Section - Shows on Hover */}
+                    {}
                     <li className="hooks-menu">
                         <span>Hooks</span>
                         <ul className="hooks-dropdown">
