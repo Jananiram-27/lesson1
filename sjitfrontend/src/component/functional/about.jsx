@@ -5,9 +5,6 @@ function about(){
     function handleDecrement(){
         setNum(num-1)
     }
-    function submit(){
-        setNum(num)
-    }
     return(
         <div>
         <h1>about</h1>
@@ -16,8 +13,6 @@ function about(){
         <button onClick={handleDecrement}>-</button>
         <h3>updating state:{num}</h3>
         <button onClick={ ()=>{setNum(num+1)} }>+</button>
-        <h1>submit:{num}</h1>
-        <button onClick={submit}>click</button>
         </div>
     );
 }
