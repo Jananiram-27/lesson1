@@ -11,31 +11,29 @@ import UseRefExample from './component/functional/Hooks/useRef.jsx';
 import UseMemoExample from './component/functional/Hooks/UseMemo.jsx';
 import LazyLoad from './component/functional/memoization/LazyLoadingAndSuspense.jsx';
 import TextInput from './component/functional/memoization/Memo.jsx';
-import Exam from './component/functional/Exam.jsx'
-
+import Exam from './component/functional/ContextAPI/Exam.jsx';
+import StudentResults from './component/functional/ContextAPI/StudentResult.jsx';
 
 function App() {
   return (
     <main>
-    <BrowserRouter>
-      <Navbar /> 
-      <Routes>
-      
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/signup' element={<Signup />} />
-        <Route path='/use-effect-api' element={<UseEffectApi />} />
-        <Route path='/use-ref' element={<UseRefExample />} />
-        <Route path='/use-memo' element={<UseMemoExample />} />
-        <Route path='/lazy' element={<LazyLoad />} />  
-        <Route path='/text' element={<TextInput />} /> 
-        <Route path='/StudentResults' element={<StudentResults />} />
-
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='/use-effect-api' element={<UseEffectApi />} />
+          <Route path='/use-ref' element={<UseRefExample />} />
+          <Route path='/use-memo' element={<UseMemoExample />} />
+          <Route path='/lazy' element={<LazyLoad />} />  
+          <Route path='/text' element={<TextInput />} /> 
+          <Route path='/student-results' element={<StudentResults />} />
+        </Routes>
+      </BrowserRouter>
     </main>
   );
 }

@@ -1,10 +1,10 @@
+import Student from "./Student";
 
-import Faculty from "./Student";
 const Exam = () => (
     <div>
-      <h1>Today is the exam</h1>
-      <Student></Student>
+      <h1>Today is the Exam</h1>
+      <Student />
     </div>
-  );
-  
+);
+
 export default Exam;
