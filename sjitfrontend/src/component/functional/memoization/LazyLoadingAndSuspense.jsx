@@ -6,6 +6,7 @@ const LazyLoad = () => {
     return (
         <div>
             <h2>This is LazyComponent</h2>
+            <h2>Slow Loading</h2>
             <Suspense fallback={<p>Loading...</p>}>
                 <LazyComp />
             </Suspense>
