@@ -11,7 +11,7 @@ import UseRefExample from './component/functional/Hooks/useRef.jsx';
 import UseMemoExample from './component/functional/Hooks/UseMemo.jsx';
 import LazyLoad from './component/functional/memoization/LazyLoadingAndSuspense.jsx';
 import TextInput from './component/functional/memoization/Memo.jsx';
-import Exam from './component/functional/CoE.jsx'
+import Exam from './component/functional/Exam.jsx'
 
 
 function App() {
