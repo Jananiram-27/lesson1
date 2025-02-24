@@ -2,7 +2,7 @@ function Home() {
     var styling = {
         textAlign: "center",
         color: "black",
-        backgroundColor: "orange" 
+        backgroundColor: "green"
     };
 
 

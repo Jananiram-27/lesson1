@@ -1,8 +1,8 @@
-function gallery(){
+function Gallery(){
     return(
         <div>
         <h1>gallery page</h1>
         </div>
     );
 }
-export default gallery;
+export default Gallery;

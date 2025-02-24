@@ -1,5 +1,6 @@
+
 nav {
-    background-color: rgb(73, 124, 64);
+    background-color: rgb(97, 50, 148);
     height: 40px;
     display: flex;
     align-items: center;
@@ -29,7 +30,7 @@ li {
     list-style: none;
     padding: 5px 0;
     width: 150px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(221, 220, 220, 0.2);
     border-radius: 5px;
     display: none; 
 }
@@ -39,7 +40,6 @@ li {
     flex-direction: column;
 }
 
-
 .hooks-dropdown li {
     padding: 8px;
     white-space: nowrap;
@@ -47,4 +47,48 @@ li {
 
 .hooks-dropdown li:hover {
     background-color: rgb(200, 200, 250);
+}
+
+
+button {
+    background-color: #665399; 
+    color: white; 
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+input {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+}
+
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.one{
+    background-color: rgb(146, 157, 136);
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
 }
