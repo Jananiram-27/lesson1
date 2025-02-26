@@ -7,5 +7,5 @@ const signupSchema = new mdb.Schema({
     passWord:String,
     phoneNumber:Number
 })
-const signup_schema = mdb.model("signup",signupSchema)
-module.exports = signupSchema;
+const signup = mdb.model("signup",signupSchema)
+module.exports = signup;
